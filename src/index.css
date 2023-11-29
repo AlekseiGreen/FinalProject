@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "Ferry";
+  src:
+    local("Ferry"),
+    url("./style/Ferry/ferry_black.otf") format("opentype");
+}
+
+html, body {
+  /* height: 100%; */
+  margin: auto;
+}
+
+.common-grid-container {
+  min-width: 1440px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 96px auto 96px;
+}
+
+.header {
+  border: 2px solid blue;
+
+  display: grid;
+  grid-template-columns: 42% auto 42%;
+}
+
+.main {
+  border: 2px solid green;
+}
+
+.footer {
+  border: 2px solid grey;
+}
+
+.header-one {
+  border: 2px solid red;
+  padding-left: 90px;
+}
+
+.header-two {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: black;
+  size: 14px;
+}
+
+.header-two a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-three {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.header-three-reg {
+  margin-right: 18px;
+  font-weight: 400;
+}
+
+.header-three-img {
+  margin-right: 20px;
+}
+
+.header-three-enter {
+  margin-right: 90px;
+  font-weight: 500;
+  background-color: #7CE3E1;
+  border-radius: 5px; 
+  padding: 4px 10px 5px 12px;
+}
+
+.header-three a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Group_1 {
+  border: 2px solid rgb(15, 0, 128);
+  margin: auto;
+  margin-bottom: 109px;
+  width: 1320px;
+  height: 620px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "Group_11 Group_13"
+    "Group_12 Group_13"
+  ;
+}
+
+.Group_11 {
+  /* width: 650px; */
+  height: 288px;
+  border: 2px solid red;
+  font-size: 60px;
+  font-weight: 900;
+  font-family:  'Ferry';
+  grid-area: Group_11;
+}
+
+.Group_12 {
+  /* height: 620px; */
+  border: 2px solid red;
+  grid-area: Group_12;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Group_12-button {
+  margin-top: 70px;
+  width: 335px;
+  height: 59px;
+  background-color: #5970FF;
+  border-color: #5970FF;
+  border-radius: 5px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  /* padding: 4px 10px 5px 12px; */
+}
+
+.Group_13 {
+  border: 2px solid red;
+  grid-area: Group_13;
+}
+
+.Group_2 {
+  border: 2px solid green;
+  width: 1346px;
+  height: 349px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 225px;
+  grid-template-areas:
+    "Group_21"
+    "Group_22"
+  ;
+}
+
+.Group_21 {
+  border: 2px solid red;
+  font-size: 45px;
+  font-weight: 900;
+  margin: 0px;
+  font-family: 'Ferry';
+}
+
+.Group_22 {
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 39px auto 39px;
+  grid-template-areas:
+    "Group_21"
+  ;
+}
+
+.Group_221 {
+  border: 2px solid red;
+  align-self: center;
+  cursor: pointer;
+}
+
+.Group_222 {
+  border: 2px solid red;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Group_222n {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 400px;
+  height: 225px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  >img {
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+  >div {
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.Group_223 {
+  border: 2px solid red;
+  align-self: center;
+  cursor: pointer;
+}
+
+.Group_3 {
+  border: 2px solid green;
+  width: 1307px;
+  height: 576px;
+  margin: auto;
+  margin-top: 70px;
+  
+  
+}
+
+.Group_4 {
+  margin-top: 107px;
+  margin-bottom: 118px;
+  border: 2px solid green;
+}
