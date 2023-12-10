@@ -10,6 +10,19 @@ html, body {
   margin: auto;
 }
 
+.center {
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  
+  
+  position: absolute;
+  bottom: 24px;
+  left: 40px;
+  /* text-align: center; */
+
+}
+
 .common-grid-container {
   min-width: 1440px;
   min-height: 100vh;
@@ -91,7 +104,7 @@ html, body {
   width: 1320px;
   height: 620px;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 55% 45%;
   grid-template-rows: auto 1fr;
   grid-template-areas:
     "Group_11 Group_13"
@@ -218,12 +231,4 @@ html, body {
   height: 576px;
   margin: auto;
   margin-top: 70px;
-  
-  
-}
-
-.Group_4 {
-  margin-top: 107px;
-  margin-bottom: 118px;
-  border: 2px solid green;
 }

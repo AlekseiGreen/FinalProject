@@ -1,0 +1,120 @@
+.Group_4 {
+    border: 2px solid green;
+    width: 1320px;
+    height: 664px;
+    margin: auto;
+    margin-top: 107px;
+    margin-bottom: 118px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 540px;
+    grid-template-areas:
+      "Goup_41"
+      "Group_42"
+    ;
+  }
+  
+  .Group_41 {
+    border: 2px solid red;
+    font-family: Ferry;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.45px;
+  }
+  
+  .Group_42 {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.Card-tariff {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 415px;
+    overflow: hidden;
+
+    position: relative;
+  }
+
+
+
+.card-tariff-title {
+
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  /* color: #000; */
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+
+.card-tariff-preview {
+
+  position: absolute;
+  top: 76px;
+  left: 30px;
+
+  /* color: #000; */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.18px;
+}
+
+/* .card-tariff-img {
+  position: absolute;
+  top: 11px;
+  left: 307px;
+} */
+
+.Card-tariff-colorY {
+  height: 132px;
+  background-color: #FFB64F;
+
+  .card-tariff-img {
+    position: absolute;
+    top: 11px;
+    left: 307px;
+  }
+}
+
+.Card-tariff-colorT {
+  height: 132px;
+  background-color: #7CE3E1;
+
+  .card-tariff-img {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    width: 93.763px;
+    height: 103.97px;
+    /* transform: rotate(-16.92deg); */
+    flex-shrink: 0;
+  }
+}
+
+.Card-tariff-colorB {
+  height: 132px;
+  background-color: #000;
+  color: white;
+
+  .card-tariff-img {
+    position: absolute;
+    top: 23px;
+    right: 5px;
+    width: 96px;
+    height: 80.09px;
+    flex-shrink: 0;
+  }
+}
