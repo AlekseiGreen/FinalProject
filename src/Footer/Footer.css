@@ -1,0 +1,49 @@
+.footer {
+    background: #029491;
+    position: relative;
+}
+
+.footer-logo {
+    width: 141px;
+    height: 137px;
+    flex-shrink: 0;
+    margin-left: 60px;
+    position: absolute;
+}
+
+.footer-contact {
+    width: 199px;
+    height: 51px;
+    flex-shrink: 0;
+    top: 25px;
+    right: 45px;
+
+    position: absolute;
+
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.footer-copyR {
+    width: 94px;
+    height: 15px;
+    flex-shrink: 0;
+    top: 97px;
+    right: 43px;
+
+    position: absolute;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}

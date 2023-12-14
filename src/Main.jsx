@@ -1,15 +1,15 @@
-import Group_1 from "./Group_1";
+import Section from "./Section";
 import Group_2 from "./Group_2";
 import Group_3 from "./Group_3";
-import Group_4 from "./Group_4";
+import Section_four from "./Section_four";
 
 function Main() {
     return(
         <div className="main">
-            <Group_1 />
+            <Section />
             <Group_2 />
             <Group_3 />
-            <Group_4 />
+            <Section_four />
         </div>
     );
 };

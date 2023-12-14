@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Logo from './img/LogoScan.svg'
 import RectTopRight from './img/RectTopRight.svg'
 
@@ -8,14 +9,14 @@ function Header() {
                 <img src={Logo} alt='Logo'/>
             </div>
             <div className='header-two'>
-                <a href='#'>Главная</a>
-                <a href='#'>Тарифы</a>
-                <a href='#'>FAQ</a>                
+                <Link to='/'>Главная</Link>
+                <Link to='/'>Тарифы</Link>
+                <Link to='/'>FAQ</Link>                
             </div>
             <div className='header-three'>
-                <a href='#' className='header-three-reg'>Зарегистрироваться</a>
+                <Link to='/Account' className='header-three-reg'>Зарегистрироваться</Link>
                 <img className='header-three-img' src={RectTopRight} alt='RectTopRight'/>
-                <a href='#' className='header-three-enter'>Войти</a>
+                <Link to='/Account' className='header-three-enter'>Войти</Link>
             </div>
         </div>
     );
