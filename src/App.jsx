@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Core from './Core.jsx';
 import Account from './Account.jsx';
 import Search from './Search.jsx';
+import Result from './Result.jsx';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <Route path="/Core" element={<Core />}/>
         <Route path="/Account" element={<Account />}/>
         <Route path="/Search" element={<Search />}/>
-        {/* <Route path="*" element={<Notfoundpage />}/> */}
+        <Route path="/Result" element={<Result />}/>
       </Routes>
     </>
   );

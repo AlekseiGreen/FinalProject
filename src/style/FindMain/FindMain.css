@@ -1,0 +1,79 @@
+.findMain {
+    /* border: 2px solid red; */
+}
+
+.findMain-top {
+    width: 1298px;
+    height: 214px;
+    flex-shrink: 0;
+
+    margin: auto;
+    margin-top: 24px;
+
+    position: relative;
+}
+
+.findMain-title {
+    width: 817px;
+
+    color: #000;
+    font-family: Ferry;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.2px;
+
+    position: absolute;
+    top: 45px;
+    left: 0px;
+}
+
+.findMain-description {
+    width: 534px;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+
+    position: absolute;
+    top: 166px;
+    left: 0px;
+}
+
+.findMain-imgDoc {
+    position: absolute;
+    top: 108px;
+    right: 329px;
+}
+
+.findMain-imgFold {
+    position: absolute;
+    top: 126px;
+    right: 22px;
+}
+
+.findMain-bottom {
+    width: 1298px;
+    height: 543px;
+    
+    margin: auto;
+    margin-top: 47px;
+
+    position: relative;
+
+}
+
+.findMain-imgManRock {
+    width: 442px;
+    height: 470px;
+    flex-shrink: 0;
+
+    position: absolute;
+    top: 66px;
+    left: 1005px;
+}

@@ -1,16 +1,16 @@
 import Header from './Header.jsx';
-import FindMain from './FindMain.jsx';
+import ResultMain from './ResultMain.jsx';
 import Footer from './Footer.jsx';
 
 
-function Search() {
+function Result() {
     return(
     <div className='common-grid-container'>
       <Header />
-      <FindMain />
+      <ResultMain />
       <Footer />
     </div>
     )
 };
 
-export default Search;
+export default Result;
